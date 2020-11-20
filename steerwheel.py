@@ -1,5 +1,6 @@
 import pygame
 
+pygame.init()
 pygame.joystick.init()
 pad = pygame.joystick.Joystick(0)
 pad.init()
